@@ -28,7 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-vsempoka-клиенты-l',
             caption: i18n.t('forms.application.sitemap.логистика.i-i-s-vsempoka-клиенты-l.caption'),
             title: i18n.t('forms.application.sitemap.логистика.i-i-s-vsempoka-клиенты-l.title'),
-            icon: 'chart line',
+            icon: 'file',
             children: null
           }, {
             link: null,
@@ -38,7 +38,7 @@ export default Controller.extend({
               link: 'i-i-s-vsempoka-организация-l',
               caption: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-vsempoka-организация-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-vsempoka-организация-l.title'),
-              icon: 'chart line',
+              icon: 'building',
               children: null
             }, {
               link: 'i-i-s-vsempoka-пункт-погрузки-l',
@@ -50,13 +50,13 @@ export default Controller.extend({
               link: 'i-i-s-vsempoka-список-барж-l',
               caption: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-vsempoka-список-барж-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-vsempoka-список-барж-l.title'),
-              icon: 'phone',
+              icon: 'address card',
               children: null
             }, {
               link: 'i-i-s-vsempoka-список-контей-l',
               caption: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-vsempoka-список-контей-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-vsempoka-список-контей-l.title'),
-              icon: 'paperclip',
+              icon: 'file',
               children: null
             }]
           }, {
@@ -67,7 +67,7 @@ export default Controller.extend({
               link: 'i-i-s-vsempoka-товары-l',
               caption: i18n.t('forms.application.sitemap.логистика.номенклатура.i-i-s-vsempoka-товары-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.номенклатура.i-i-s-vsempoka-товары-l.title'),
-              icon: 'chart line',
+              icon: 'list',
               children: null
             }]
           }, {
@@ -78,19 +78,19 @@ export default Controller.extend({
               link: 'i-i-s-vsempoka-формир-рез-пос-l',
               caption: i18n.t('forms.application.sitemap.логистика.документы.i-i-s-vsempoka-формир-рез-пос-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.документы.i-i-s-vsempoka-формир-рез-пос-l.title'),
-              icon: 'folder open',
+              icon: 'chart bar',
               children: null
             }, {
               link: 'i-i-s-vsempoka-докум-постав-l',
               caption: i18n.t('forms.application.sitemap.логистика.документы.i-i-s-vsempoka-докум-постав-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.документы.i-i-s-vsempoka-докум-постав-l.title'),
-              icon: 'suitcase',
+              icon: 'list',
               children: null
             }, {
               link: 'i-i-s-vsempoka-формир-док-распр-l',
               caption: i18n.t('forms.application.sitemap.логистика.документы.i-i-s-vsempoka-формир-док-распр-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.документы.i-i-s-vsempoka-формир-док-распр-l.title'),
-              icon: 'calendar',
+              icon: 'phone',
               children: null
             }]
           }]

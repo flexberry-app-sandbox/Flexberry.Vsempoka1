@@ -44,7 +44,7 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('КлиентыE', 'i-i-s-vsempoka-клиенты', {
     заказчик: attr('Заказчик', { index: 0 }),
     телефон: attr('Телефон', { index: 1 }),
-    адресПоствки: attr('Адрес поствки', { index: 2 }),
+    адресПоствки: attr('Адрес поставки', { index: 2 }),
     расчетСчет: attr('Расчетный счет', { index: 3 })
   });
 
