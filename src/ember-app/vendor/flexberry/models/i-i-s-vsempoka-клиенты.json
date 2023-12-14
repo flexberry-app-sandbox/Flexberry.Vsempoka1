@@ -1,0 +1,117 @@
+﻿{
+  "name": "IISVsempokaКлиенты",
+  "modelName": "i-i-s-vsempoka-клиенты",
+  "className": "Клиенты",
+  "nameSpace": "IIS.Vsempoka",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "адресПоствки",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "заказчик",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "расчетСчет",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "телефон",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КлиентыE",
+      "modelName": "i-i-s-vsempoka-клиенты",
+      "attrs": [
+        {
+          "name": "заказчик",
+          "caption": "Заказчик",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "телефон",
+          "caption": "Телефон",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "адресПоствки",
+          "caption": "Адрес поствки",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "расчетСчет",
+          "caption": "Расчетный счет",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КлиентыL",
+      "modelName": "i-i-s-vsempoka-клиенты",
+      "attrs": [
+        {
+          "name": "заказчик",
+          "caption": "Заказчик",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "телефон",
+          "caption": "Телефон",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "адресПоствки",
+          "caption": "Адрес поствки",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "расчетСчет",
+          "caption": "Расчетный счет",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

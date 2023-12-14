@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISVsempokaСписокКонтей",
+  "modelName": "i-i-s-vsempoka-список-контей",
+  "className": "СписокКонтей",
+  "nameSpace": "IIS.Vsempoka",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "наименКонтей",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерКонтей",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СписокКонтейE",
+      "modelName": "i-i-s-vsempoka-список-контей",
+      "attrs": [
+        {
+          "name": "номерКонтей",
+          "caption": "Номер контейнера",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименКонтей",
+          "caption": "Наименование контейнера",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СписокКонтейL",
+      "modelName": "i-i-s-vsempoka-список-контей",
+      "attrs": [
+        {
+          "name": "номерКонтей",
+          "caption": "Номер контейнера",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименКонтей",
+          "caption": "Наименование контейнера",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

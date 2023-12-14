@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsempoka.Objects", "Objects/Vsempoka.Objects.csproj", "a9cef6d4-248c-420e-bbd7-940d2a3889ca"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsempoka.Tests", "Tests/Vsempoka.Tests.csproj", "b0575af8-24c4-4e3d-abd0-bd0e10e39567"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsempoka.ODataBackend", "ODataBackend/Vsempoka.ODataBackend.csproj", "4a4d34c7-fde8-46eb-9012-de0cab96bd46"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsempoka.IntegrationTests", "IntegrationTests/Vsempoka.IntegrationTests.csproj", "0921ff67-5f10-43ad-92fa-c3049e05e831"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		a9cef6d4-248c-420e-bbd7-940d2a3889ca.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		a9cef6d4-248c-420e-bbd7-940d2a3889ca.Debug|Any CPU.Build.0 = Debug|Any CPU
+		a9cef6d4-248c-420e-bbd7-940d2a3889ca.Release|Any CPU.ActiveCfg = Release|Any CPU
+		a9cef6d4-248c-420e-bbd7-940d2a3889ca.Release|Any CPU.Build.0 = Release|Any CPU
+		b0575af8-24c4-4e3d-abd0-bd0e10e39567.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		b0575af8-24c4-4e3d-abd0-bd0e10e39567.Debug|Any CPU.Build.0 = Debug|Any CPU
+		b0575af8-24c4-4e3d-abd0-bd0e10e39567.Release|Any CPU.ActiveCfg = Release|Any CPU
+		b0575af8-24c4-4e3d-abd0-bd0e10e39567.Release|Any CPU.Build.0 = Release|Any CPU
+		4a4d34c7-fde8-46eb-9012-de0cab96bd46.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		4a4d34c7-fde8-46eb-9012-de0cab96bd46.Debug|Any CPU.Build.0 = Debug|Any CPU
+		4a4d34c7-fde8-46eb-9012-de0cab96bd46.Release|Any CPU.ActiveCfg = Release|Any CPU
+		4a4d34c7-fde8-46eb-9012-de0cab96bd46.Release|Any CPU.Build.0 = Release|Any CPU
+		0921ff67-5f10-43ad-92fa-c3049e05e831.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		0921ff67-5f10-43ad-92fa-c3049e05e831.Debug|Any CPU.Build.0 = Debug|Any CPU
+		0921ff67-5f10-43ad-92fa-c3049e05e831.Release|Any CPU.ActiveCfg = Release|Any CPU
+		0921ff67-5f10-43ad-92fa-c3049e05e831.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

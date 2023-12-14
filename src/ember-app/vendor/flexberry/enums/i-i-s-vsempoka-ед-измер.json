@@ -1,0 +1,10 @@
+﻿{
+  "nameSpace": "IIS.Vsempoka",
+  "className": "ЕдИзмер",
+  "enumObjects": {
+    "Шт": "Шт",
+    "Тонн": "Тонн",
+    "Кг": "Кг",
+    "Л": "Л"
+  }
+}

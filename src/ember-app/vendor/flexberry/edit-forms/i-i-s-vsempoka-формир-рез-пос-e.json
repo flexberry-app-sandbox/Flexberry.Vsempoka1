@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ФормирДокРаспр",
+      "projection": "ФормирДокРаспрL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Формирование результата поставки",
+  "name": "IISVsempokaФормирРезПосE",
+  "className": "ФормирРезПосE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vsempoka-формир-рез-пос",
+      "modelProjection": "ФормирРезПосE"
+    }
+  ]
+}

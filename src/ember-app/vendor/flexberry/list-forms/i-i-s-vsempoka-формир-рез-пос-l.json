@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-vsempoka-формир-рез-пос-e",
+  "editForm": "i-i-s-vsempoka-формир-рез-пос-e",
+  "external": false,
+  "caption": "Формирование результата поставки",
+  "name": "IISVsempokaФормирРезПосL",
+  "className": "ФормирРезПосL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vsempoka-формир-рез-пос",
+      "modelProjection": "ФормирРезПосL"
+    }
+  ]
+}

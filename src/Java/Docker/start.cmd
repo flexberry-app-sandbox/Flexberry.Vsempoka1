@@ -1,0 +1,1 @@
+docker-compose -p vsempoka-java up -d

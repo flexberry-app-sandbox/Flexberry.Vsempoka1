@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-vsempoka-формир-док-распр-e",
+  "editForm": "i-i-s-vsempoka-формир-док-распр-e",
+  "external": false,
+  "caption": "Формирование документа распределения",
+  "name": "IISVsempokaФормирДокРаспрL",
+  "className": "ФормирДокРаспрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vsempoka-формир-док-распр",
+      "modelProjection": "ФормирДокРаспрL"
+    }
+  ]
+}
